@@ -5,8 +5,14 @@
 }
 
 .profile {
+  border-radius: 0%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 200px;
+}
+
+.column {
+  float: left;
+  width: 50%;
 }
