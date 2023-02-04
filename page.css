@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .front {
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .page {
@@ -51,7 +51,6 @@
   background: none;
 }
 
-
 /* Calling card styling */
 .callcard {
   display: table;
@@ -63,14 +62,21 @@
 .callcard-list {
   display: table-cell;
   vertical-align: middle;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 .callcard-title {
   padding: 0;
   margin: 0;
+}
+
+.markless-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.spaced {
+  margin-bottom: 5px;
 }
 
 /* Profile picture on the landing page */
