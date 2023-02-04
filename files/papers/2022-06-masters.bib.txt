@@ -1,0 +1,6 @@
+@mastersthesis{paiva2022masters,
+  author    = {da Rocha Paiva, Bruno M.},
+  title     = {{A Model Theoretic Study of Allen's Interval Algebra}},
+  publisher = {Imperial College London},
+  year      = {2022},
+}
