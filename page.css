@@ -31,16 +31,11 @@ p {
 
 /* Navigation bar styling */
 .nav {
-  margin-bottom: 42px;
   text-align: left;
 }
 
 .navcol {
   list-style-type: none;
-
-  display: block-inline;
-  margin-left: 0;
-  margin-right: auto;
   padding: 0;
 }
 
@@ -63,8 +58,6 @@ p {
 .callcard {
   display: table;
   height: 200px; /* Set to same as height of profile picture */
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .callcard-list {
@@ -124,5 +117,6 @@ a:hover {
 
   .nav {
     text-align: center;
+    margin-bottom: 42px; /* Here for nice mobile spacing */
   }
 }
