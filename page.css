@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .front {
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 .page {
@@ -17,14 +17,9 @@ p {
   text-align: justify
 }
 
-.column2 {
+.column {
   float: left;
   width: 50%;
-}
-
-.column3 {
-  float: left;
-  width: 33%;
 }
 
 /* Clear floats after the columns */
