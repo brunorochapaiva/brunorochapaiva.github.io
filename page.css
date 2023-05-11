@@ -17,7 +17,16 @@ p {
   text-align: justify
 }
 
-.column {
+/* Responsive columns (responsive behaviour comes from media at the end) */
+.column33 {
+  float: left;
+  width: 33%;
+}
+.column34 {
+  float: left;
+  width: 34%;
+}
+.column50 {
   float: left;
   width: 50%;
 }
@@ -104,9 +113,32 @@ a:hover {
   background: #cdfeaa;
 }
 
+#webring-left {
+  width: 33%;
+  float: left;
+  margin: 0px;
+  text-align: left;
+}
+
+#webring-middle {
+  width: 34%;
+  float: left;
+  margin: 0px;
+  text-align: center;
+}
+
+#webring-right {
+  width: 33%;
+  float: left;
+  margin: 0px;
+  text-align: right;
+}
+
 /* Responsive front page stuff (making columns stack, centering text when stacked)*/
+
+/* Breakpoint for front page stacking */
 @media (max-width: 750px) {
-  .column {
+  .frontcol {
     width: 100%;
   }
 
@@ -118,5 +150,18 @@ a:hover {
   .nav {
     text-align: center;
     margin-bottom: 42px; /* Here for nice mobile spacing */
+  }
+}
+
+/* Breakpoint for webring header */
+@media (max-width: 400px) {
+  #webring-left {
+    width: 50%;
+  }
+  #webring-middle {
+    display: none;
+  }
+  #webring-right {
+    width: 50%;
   }
 }
