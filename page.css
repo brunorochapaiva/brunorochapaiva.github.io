@@ -18,6 +18,10 @@ p {
 }
 
 /* Responsive columns (responsive behaviour comes from media at the end) */
+.column30 {
+  float: left;
+  width: 30%;
+}
 .column33 {
   float: left;
   width: 33%;
@@ -29,6 +33,10 @@ p {
 .column50 {
   float: left;
   width: 50%;
+}
+.column70 {
+  float: left;
+  width: 70%;
 }
 
 /* Clear floats after the columns */
